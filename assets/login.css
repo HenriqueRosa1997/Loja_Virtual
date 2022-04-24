@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+}
+.topo {
+  background-image: url(images/banner.png);
+  width: 100%;
+  height: 375px;
+  background-position: center;
+}
+nav ul {
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+nav ul li {
+  display: inline-block;
+  letter-spacing: 3px;
+  margin-right: 15px;
+  text-transform: uppercase;
+}
+nav ul li a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.conteudo {
+  width: 75%;
+  margin: 20px auto;
+  height: 65vh;
+  min-width: 20vh;
+  background-color: #201b2c;
+  border-radius: 15px;
+  box-shadow: 0px 10px 40px #00000056;
+}
+
+fieldset {
+  text-align: center;
+  margin: 2% auto;
+  width: 90%;
+  color: white;
+  letter-spacing: 2px;
+  padding-left: 0;
+  padding-right: 0;
+}
+legend {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.fotouser img {
+  object-fit: cover;
+  width: 18vh;
+  height: 100px;
+  border-radius: 50%;
+}
+fieldset label {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  display: block;
+  color: white;
+}
+fieldset input {
+  box-sizing: border-box;
+  height: 5vh;
+  width: 55%;
+  min-width: 18vh;
+  background-color: #514869;
+  text-transform: uppercase;
+  margin-bottom: 2%;
+}
+
+.btn {
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.btn button {
+  box-sizing: border-box;
+  border: 0;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  background: radial-gradient(100% 100% at 100% 0%, #89e5ff 0%, #5468ff 100%);
+  color: white;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+fieldset a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  background-color: #514869;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+footer {
+  width: 100%;
+  height: 25vh;
+  background-color: #201b2c;
+}
+.rodape {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.col-1 {
+  margin-top: 5vh;
+}
+
+.col-1-list {
+  list-style: none;
+  padding: 0;
+  color: white;
+  margin: 8%;
+}
+.col-1-list li {
+  text-align: center;
+  letter-spacing: 2px;
+}
+.col-1-h h3 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+}
+.col-2 {
+  margin-top: 5vh;
+}
+
+.col-2-h {
+  text-align: center;
+  letter-spacing: 1.2px;
+  font-weight: bold;
+}
+
+.col-2-h label {
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.input-rodape {
+  background-color: #514869;
+  width: 80%;
+  margin: 10%;
+  height: 5vh;
+}
+
+.contato {
+  margin-top: 5vh;
+  color: white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.contato label {
+  font-weight: bold;
+}
+.contato li {
+  list-style: none;
+  font-size: 15px;
+  margin-top: 12px;
+}
+
+.contato ul {
+  padding: 0;
+}
